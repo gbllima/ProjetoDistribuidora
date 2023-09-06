@@ -1,0 +1,564 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,300&family=Roboto+Condensed:ital@1&family=Roboto:ital,wght@1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    }
+    html::-webkit-scrollbar{
+        width: 1rem;
+    }
+    html::-webkit-scrollbar-track{
+    
+        background: transparent;
+    }
+    
+    html::-webkit-scrollbar-thumb{
+    background-color: #80cfe0;
+    border-radius: 5rem;
+    }
+
+header{
+   
+    
+    max-width: 100%;
+    padding-top: 1rem;
+    display: flex;
+    background:  #2faade;
+    height:80px;
+    display: inline-block;
+}
+
+.carousel-inner{
+
+    max-width: 100%;
+    height: 60vh;
+    align-items: center;
+   
+}
+.carousel-item img{
+
+height:60vh ;
+width: 95%;
+align-items: center;
+padding-left: 72px;
+}
+
+.logo{
+
+display: inline-block;
+padding-bottom: 10px;
+
+}
+  
+.logo img{
+    
+    width: 90px;
+    margin-left: 30px;
+    margin-top: -20px;
+   
+}
+ul{
+    list-style: none;
+    display: flex;
+     gap: 3rem;
+     float:right;
+     padding-top:33px;
+     padding-right: 40px;
+     cursor: pointer;
+     text-decoration: none;
+     color: azure;
+     font-family: 'Roboto Condensed', sans-serif;
+     width: 1200;
+     
+}
+ul li{
+
+    list-style: none;
+    font-family:"Roboto";
+    position: relative;
+    margin-top: -20px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+ 
+}
+ul li a{
+
+    text-decoration: none;
+    color :#fafeff;
+    transition: 0.3;
+
+}
+ul li:hover{
+    
+    text-transform: capitalize;
+    color: #ffffff;
+    border-bottom: solid 1px;
+    
+}
+
+.background{
+    
+
+width: 100%;
+height: 85vh;
+overflow-x: hidden;
+}
+
+body{
+    background-color: 
+    #fafeff;
+    overflow-x: hidden;
+    
+    
+}
+.section-1 h1{
+
+    align-items: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    max-width: 100%;
+
+}
+
+.animated-title {
+    position: absolute;
+    left: -100%; /* Inicialmente, fora da tela à esquerda */
+    transform: translateY(-50%);
+    top: 82%;
+    font-size: 36px;
+    animation: slideIn 2s forwards; /* Nome da animação e duração */
+}
+
+.section-1 span{
+
+    color:#3f92c4;
+}
+
+.Sobre-nós{
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #80cfe0;
+    max-width: 100%;
+    height: 50vh;
+    width: 90%;
+    margin-left: 72px;
+    
+    
+
+}
+.Sobre-nós video{
+   max-width: 100%;
+   width: 25rem;
+   height: auto;
+   margin-left: 10px;
+
+}
+.Sobre-nos-tittle{
+
+margin-left: 1.3rem;
+max-width: 100%;
+
+
+}
+.Sobre-nos-tittle h2{
+
+color: rgb(255, 255, 255);
+font-size: 1.5rem;
+max-width: 100%;
+width: auto;
+
+}
+.Sobre-nos-tittle p{
+    line-height: 2rem;
+    font-size: 1rem;
+    padding-top: 1rem;
+    color: rgb(0, 0, 0);
+    
+}
+
+#section2{
+
+    background-color:#ffffff;
+    height: 90vh;
+    max-width: 100%;
+   
+    
+}
+#section2 h1{
+    font-size: 2rem;
+    padding-top: 5%;
+   
+}
+.animated-title1{
+    position: absolute;
+    right: -100%; /* Inicialmente, fora da tela à direita */
+    transform: translateY(-50%);
+    font-size: 36px;
+    animation: slideInn 2s forwards; /* Nome da animação e duração */
+}
+.cont-card{
+
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    padding-left: 15%;
+    padding-top: 3%;
+    width: auto;
+    
+}
+.produtos1 {
+
+align-items: center;
+margin-top: 20px;
+float: left; /* Isso faz com que as colunas fiquem lado a lado */
+
+}
+.cont-card img{
+
+   width: 10rem;
+   max-width: 100%;
+   height: auto;
+   
+
+   
+
+}
+.cont-card2{
+
+    max-width: 100%;
+    display: flex;
+    gap: 5rem;
+    padding-left: 15%;
+    padding-top:3%;
+   
+    
+    
+}
+.cont-card2 img{
+
+    width: 10rem;
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    
+}
+#section2 button{
+
+ margin-top:40px;
+ text-align: center;
+ margin-left: 41%;
+ background-color: #80cfe0;
+ color: white;
+ font-size: 1.2rem;
+ padding: 10px 15px;
+ cursor: pointer;
+}
+#section2 button:hover{
+letter-spacing: 2px;
+transition: 0.3s all;
+}
+
+.section3{
+
+max-width: 100%;
+height: 80vh;
+
+
+
+}
+.numero1{
+max-width: 100%;
+align-items: center;
+
+
+
+
+}
+.numero1 img{
+height:60vh ;
+max-width: 100%;
+width: 100%;
+
+}
+
+@media screen and (max-width:768px){
+
+    .background{
+      background-color: rgb(255, 255, 255);
+      height: 59vh;
+      width: 100%;
+     
+      
+    }
+}
+@media screen and (max-width:768px){
+
+    body{
+      
+        height: 10vh;
+        
+
+    }
+}
+@media screen and (max-width:768px){
+
+    .carousel-inner{
+        align-items: center;
+        margin-left: -2px;
+       
+        
+   
+    }
+}
+@media screen and (max-width:768px){
+
+    ul{
+    
+      padding: 0%;
+      margin: 0%;
+      display: contents;
+    }
+}
+@media screen and (max-width:768px){
+
+    ul li{
+    
+      margin-left:15px;
+     
+      
+    }
+}
+@media screen and (max-width:768px){
+
+    .logo{
+      
+      margin: 0;
+      padding: 0;
+      display: contents;
+    }
+}
+@media screen and (max-width:768px){
+
+    .logo img{
+     
+      margin-left: -1px;
+      width: 80px;
+   
+      }
+}
+
+@media screen and (max-width:768px){
+
+    .carousel-item img{
+     
+      height: 45vh;
+      
+      
+      }
+}
+
+
+@media screen and (max-width:768px){
+
+    .Sobre-nos-tittle p{
+     
+     display: none;
+    
+    
+   
+      }
+}
+
+@media screen and (max-width:768px){
+
+    .Sobre-nos-tittle h2{
+     display: none;
+    
+    
+   
+      }
+}
+
+@media screen and (max-width:768px){
+
+    .Sobre-nós {
+    height: 30vh;
+    margin-left: -1px;
+    padding-top: -20px;
+    display:contents;
+    
+    
+    }
+}
+@media screen and (max-width:768px){
+
+    .Sobre-nós h1{
+     
+    width: 100%;
+    
+   
+    
+    }
+}
+@media screen and (max-width:768px){
+
+    #section2 h1{
+        background-color: #ffffff;
+       padding: 0;
+       margin-top: 10%;
+       margin-left: 50%;
+        
+        
+        
+     }
+}
+
+
+@media screen and (max-width:768px){
+
+    #section2{
+        background-color: #ffffff;
+        align-items: center;
+        height: 60vh;
+        text-align: center;
+       
+        
+     }
+}
+@media screen and (max-width:768px){
+
+    #section2 button{
+       
+       margin-right: 60%;
+       display: contents;
+       
+        
+     }
+}
+
+
+@media screen and (max-width:768px){
+
+    .section-1 h1{
+     
+    
+    margin-left: -15.7%;
+    margin-top: -41%;   
+   
+    
+    }
+}
+@media screen and (max-width:768px){
+
+    .cont-card{
+     
+    padding-top: 20%;
+    margin-left: -8%;
+    
+
+
+    
+    
+
+    }
+}
+
+
+    
+@media screen and (max-width:768px){
+
+    .cont-card img{
+     
+    width: 100%;
+    padding: 0%;
+    margin: 0;
+    width: 50px;
+    
+   
+
+    
+
+    }
+}
+@media screen and (max-width:768px){
+
+    .cont-card2{
+     
+    
+    margin-left: -10%;
+    margin-top: 50px;
+    
+
+   }
+}
+
+
+@media screen and (max-width:768px){
+
+    #meuCarrossel{
+     
+     overflow-y: hidden;
+    margin-left: -10%;
+    height: 39vh;
+    
+
+   }
+}
+@media screen and (max-width:768px){
+
+    .animated-title1{
+     
+    margin-left: 10%;
+
+   }
+}
+
+
+
+
+
+
+
+
+
+
+@keyframes slideIn {
+    0% {
+        left: -100%; /* Começa fora da tela à esquerda */
+    }
+    100% {
+        left: 42%; /* Termina no centro da tela */
+    }
+}
+@keyframes slideInn {
+    0% {
+        right: -100%; /* Começa fora da tela à direita */
+    }
+    100% {
+        right: 38.8%; /* Termina no centro da tela */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
